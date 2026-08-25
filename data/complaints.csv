@@ -1,0 +1,51 @@
+complaint_text,category,priority
+"My card was charged twice for the same purchase and I need the extra amount refunded",Billing,High
+"I do not recognize this transaction on my account",Fraud,High
+"The payment failed but the money was deducted from my account",Payments,High
+"Please help me reset my password because I cannot access my account",Account Access,Medium
+"I forgot my login password and need access to my account",Account Access,Medium
+"My account is locked and I cannot sign in",Account Access,High
+"My order has not arrived even though the expected delivery date has passed",Delivery,High
+"Where is my order? It has been delayed for several days",Delivery,Medium
+"The package arrived with a damaged product",Delivery,Medium
+"I want to return the item and get a refund",Returns,Medium
+"Please process a refund for the product I returned",Refund,Medium
+"I was charged an incorrect amount on my bill",Billing,High
+"Can you explain the fee added to my latest bill?",Billing,Low
+"The checkout payment keeps failing",Payments,High
+"My payment was declined several times",Payments,High
+"I need help updating my phone number",Account Access,Low
+"The application crashes whenever I try to open my orders",Technical,High
+"The website is very slow when I try to make a payment",Technical,Medium
+"The mobile app shows an error after I log in",Technical,Medium
+"I received the wrong item in my package",Delivery,Medium
+"I would like to return an unwanted product",Returns,Low
+"How long does a refund normally take?",Refund,Low
+"The refund I was promised has not arrived yet",Refund,High
+"There is a suspicious transaction on my card",Fraud,High
+"Someone may have used my account without permission",Fraud,High
+"I need to change my billing address",Billing,Low
+"My order is expected next week and I want to track it",Delivery,Low
+"I cannot complete checkout because the page gives an error",Technical,High
+"The app is not loading properly today",Technical,Medium
+"Please help me cancel my order",Returns,Low
+"I was charged a service fee that I did not expect",Billing,Medium
+"The payment is pending for a very long time",Payments,Medium
+"I cannot access my account after changing my password",Account Access,High
+"My package tracking information has not updated",Delivery,Medium
+"The product I received is defective and I want a replacement",Returns,Medium
+"I think my card details may have been stolen",Fraud,High
+"I need a copy of my latest invoice",Billing,Low
+"The payment went through but my order was not created",Payments,High
+"The website keeps showing an unexpected error",Technical,Medium
+"I want to know the status of my refund",Refund,Medium
+"My order arrived late but everything is fine now",Delivery,Low
+"I cannot log into the mobile application",Account Access,High
+"There is an unfamiliar purchase in my transaction history",Fraud,High
+"Why was I charged for this subscription?",Billing,Medium
+"I want to return a product that I purchased yesterday",Returns,Low
+"The refund amount is incorrect",Refund,High
+"My card payment was rejected and I need to complete the order",Payments,High
+"The application freezes when I try to view my account",Technical,Medium
+"I need to update my email address",Account Access,Low
+"My delivery is late and I urgently need the package",Delivery,High
