@@ -34,9 +34,8 @@ Using two models makes the system easy to understand and extend while keeping in
 The training script reports:
 - Accuracy
 - Classification report
-- Confusion matrix
 
-A stratified train/test split is used where possible.
+A train/test split is used for evaluation.
 
 ### 6. Application
 A Streamlit interface accepts a new complaint and returns:
@@ -56,9 +55,8 @@ A Streamlit interface accepts a new complaint and returns:
 - Pandas
 - NumPy
 - Scikit-learn
-- NLTK-style text preprocessing using Python/regex
+- Python/regex text preprocessing
 - Streamlit
-- Matplotlib / Seaborn for evaluation visualizations
 - Git & GitHub
 
 ## Project Structure
@@ -70,6 +68,7 @@ ai-powered-customer-complaint-triag/
 ├── models/
 │   └── .gitkeep
 ├── src/
+│   ├── __init__.py
 │   ├── train.py
 │   └── predict.py
 ├── app.py
@@ -144,6 +143,3 @@ The exact prediction depends on the model trained from the supplied dataset.
 - Add duplicate-complaint detection.
 - Add human-in-the-loop feedback so agents can correct predictions.
 - Deploy the application using Streamlit Community Cloud or another hosting platform.
-
-## Resume Description
-**AI-Powered Customer Complaint Triage & Priority Prediction** — Built an NLP-based complaint triage system using TF-IDF and Logistic Regression to automatically classify customer complaints by category and priority; developed a Streamlit interface for real-time predictions and model confidence, with an end-to-end training and evaluation pipeline.
